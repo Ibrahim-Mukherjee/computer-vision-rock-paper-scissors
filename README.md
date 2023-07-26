@@ -1,5 +1,38 @@
 # Computer Vision RPS
 
+Here is an example of how you could update your README file to document the rock paper scissors game code:
+
+# Rock Paper Scissors Game
+
+## Setup
+This project was developed using Python 3.7. The random module is required.
+
+## Code Overview
+
+The game code is structured into 4 key functions:
+
+- `get_computer_choice()` - uses the random module to randomly select between 'Rock', 'Paper', or 'Scissors' and return the choice
+
+- `get_user_choice()` - prompts the user to input their choice and returns it
+
+- `determine_winner()` - takes the computer choice and user choice as parameters, compares them, prints outcome statements, and returns the winner 
+
+- `play()` - encapsulates the full game logic by calling the other functions and printing the winner
+
+To run the game, call the `play()` function.
+
+The key game logic compares the choices and prints different outcomes based on who won using conditional if-elif-else statements.
+
+## Next Steps
+
+Future enhancements could include:
+
+- Keeping score across multiple rounds
+- GUI interface
+- Multiplayer over network
+
+Let me know if you would like me to expand or modify the README documentation!
+
 # Rock Paper Scissors Machine Learning Model with Vision Detection
 
 This project aims to create a machine learning model for playing the game "Rock Paper Scissors" using vision detection. The model will be trained to classify four classes: Rock, Paper, Scissors, and Nothing (when no hand gesture is detected). The goal is to accurately identify the hand gesture made by a player and determine the corresponding move in the game.
