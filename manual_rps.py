@@ -17,7 +17,7 @@ user_choice = get_user_choice()
 print("Computer chose:", computer_choice)
 print("You chose:", user_choice)
 
-def determine_winner(user_choice, computer_choice):
+def get_winner(user_choice, computer_choice):
 
   if user_choice == computer_choice:
     print("It's a tie!")
@@ -56,7 +56,7 @@ def play():
   computer_choice = get_computer_choice()
   user_choice = get_user_choice()
 
-  winner = determine_winner(user_choice, computer_choice)
+  winner = get_winner(user_choice, computer_choice)
 
   print(winner)
 
